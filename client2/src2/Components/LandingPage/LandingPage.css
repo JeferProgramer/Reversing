@@ -1,0 +1,41 @@
+
+.body{
+    background-image: url('./gaming-gif.gif');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 87.4vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./gaming-gif.gif');
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    align-content:space-between;
+}
+.welcome{
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: arcade;
+}
+.button{
+    font-family: arcade;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    padding: 30px 60px;
+    background-color:#47e6f5;
+    color: #0d0003;
+    box-shadow: 0 0 20px #47e6f5, 0 0 60px #47e6f5, 0 0 100px #1160af, 0 0 150px #0c6dc1;
+    border-radius: 15px;
+}
+.button:hover{
+    background-color: rgb(64, 226, 43);
+    color:#ede5e1;
+    box-shadow: 0 0 10px rgb(43, 226, 49), 0 0 40px rgb(17, 171, 100), 0 0 80px rgb(9, 115, 18);
+}

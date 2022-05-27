@@ -1,0 +1,86 @@
+.Pagination-videogames{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.CardVideogames{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    color:black;
+    justify-content: space-between;
+} 
+
+.CardVideogameEntry{
+    height: 340px;
+    padding-bottom: 80px; 
+    margin-bottom: 20px;
+    display:inline-block;
+    align-items: center;
+    border-radius: 20px;
+    min-height:200px;
+    width:290px;
+    margin:40px 10px;
+    padding:1rem;
+    cursor:pointer;
+    background-color:#327874;
+    border: 1px solid rgb(241, 237, 237);
+    box-shadow:  
+    0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+    border-radius: 10px;
+}
+
+.CardImage{
+    background-color:#161616;
+    height: 180px;
+    width: 300px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition:all .5s ease-in-out;
+}
+.CardImage :hover{
+    margin-top:-60px;
+    box-shadow:0 0 4px 6px rgba(0,0,0,0.3);
+}
+.link{
+    text-decoration: none;
+}
+.titleCard{
+    margin-left: 15px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:0px;
+    margin-top:0px;
+}
+.genres{
+    background-color: rgb(77, 77, 77);
+    border-radius: 5px;
+    padding:10px;
+    margin-left: 15px;
+    opacity: 70%;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+.genre_videojuego{
+    color: white;
+    align-items: center;
+    font-size: 17px;
+}
+.puntaje{
+    color:white;
+    margin-left: 225px;
+}

@@ -1,0 +1,49 @@
+.buscar{
+    margin: 5%;
+}
+.buscar input{
+    padding: 25px 30px;
+    font-size: 24px;
+    width: 40%;
+    border-radius: 30px;
+    background: #1196c2;
+    margin: 0 20px;
+    border: 1px solid white;
+    color:beige;
+    padding: 15px;
+    box-shadow: 
+    0 0 2px rgb(9, 157, 210), 
+    0 0 4px rgb(19, 182, 182), 
+    0 0 6px rgb(10, 162, 157), 
+    0 0 8px rgb(8, 98, 119), 
+    0 0 10px rgb(58, 183, 225), 
+    0 0 12px rgb(22, 210, 235);
+}
+.buscar input:hover{
+    background: rgb(89, 214, 39);
+    color: black;
+    cursor: pointer;
+}
+
+::placeholder {
+    color:beige;
+    padding: 4px;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    transition: width 4s, height 1s, transform 2s;
+    width: 30px;
+    height: 30px;
+}
+
+.btn img {
+    height: 65px;
+    margin: -18px;
+}
+.btn:hover {
+    width: 70px;
+    height: 70px;
+    transform: rotate(360deg);
+}
